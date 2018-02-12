@@ -1,0 +1,43 @@
+/*  Assignment 2*/
+
+select FIRST_NAME from EMPLOYEES where COMMISSION_PCT IS null;
+
+select FIRST_NAME 
+from employees
+where FIRST_NAME  LIKE 'B%';
+
+select FIRST_NAME 
+from employees
+where HIRE_DATE >'01-Jan-82';
+
+select FIRST_NAME 
+from employees
+where HIRE_DATE >'01-Jan-82';
+
+
+
+SELECT FIRST_NAME 
+FROM employees
+where salary>2000;
+
+SELECT EMPLOYEE_ID, DEPARTMENT_ID,SALARY
+from EMPLOYEES
+where EMPLOYEE_ID=7900;
+
+SELECT FIRST_NAME
+FROM EMPLOYEES 
+where DEPARTMENT_ID='20';
+
+SELECT FIRST_NAME
+FROM EMPLOYEES 
+where DEPARTMENT_ID in ('30','10');
+
+SELECT FIRST_NAME
+FROM EMPLOYEES 
+where SALARY BETWEEN '1000' AND '3000';
+
+SELECT FIRST_NAME,JOB_ID,HIRE_DATE
+FROM EMPLOYEES 
+where HIRE_DATE BETWEEN '02-Feb-80' AND '01-May-82';
+
+
